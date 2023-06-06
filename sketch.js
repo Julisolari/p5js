@@ -1,8 +1,8 @@
-//let img; //variable ´img´
+let img; //variable ´img´
 
 function setup() {
   createCanvas(512, 512);
-  //img = loadImage('pezD.png'); //imagen de un pez chino
+  img = loadImage('pezD'); //imagen de un pez chino
 }
 
 function draw() {
