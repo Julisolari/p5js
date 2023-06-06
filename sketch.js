@@ -1,12 +1,17 @@
 let img; //variable ´img´
 
+function preload(){
+  img = loadImage('pezD.png'); //imagen de un pez chino
+}
+
 function setup() {
   createCanvas(512, 512);
-  img = loadImage('pezD'); //imagen de un pez chino
 }
 
 function draw() {
   background("#ffe8a4");
+  
+  image(img, 0, 0)
   
   fill("#000");
   rect(55, 45, 100, 65); 
@@ -46,4 +51,5 @@ function draw() {
   //otro rectangulo
   rect(400, 340, 90, 100); 
   stroke("#000");
+  
 }
