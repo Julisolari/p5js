@@ -7,11 +7,11 @@ function preload(){
 function setup() {
   createCanvas(512, 512);
 }
-
+function draw(){
+    image(img, 0, 0);
+}
 function draw() {
   background("#ffe8a4");
-  
-  image(img, 0, 0)
   
   fill("#000");
   rect(55, 45, 100, 65); 
