@@ -14,7 +14,7 @@ function draw() {
 let anchoImg = img.width;
 let altoImg = img.height;
 comsole.log(anchoImg,altoImg)
-image(img,mouseX, mouseY, img.width, img.height);
+image(img,mouseX,mouseY,img.width,img.height);
   
   fill("#000");
   rect(55, 45, 100, 65); 
