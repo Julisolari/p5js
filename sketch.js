@@ -1,21 +1,19 @@
-let img; //variable ´img´
+let img; 
 
 function preload(){
-  img = loadImage('pezD.png'); //imagen de un pez chino
+  img = LoadImage('pezD.png'); 
 }
 
 function setup() {
   createCanvas(512, 512);
 }
 function draw(){
-  image(img, 0, 0, 100, 100);
-  mover();
+let anchoImg = img.width;
+let altoImg = img.height;
+comsole.log(anchoImg,altoImg)
+image(img,mouseX, mouseY, img.width, img.height);
 }
-function mover(){
-  if(KeyIsPressed){
-    if(keyCode == RIGHT_ARROW
-       }
-  }
+
 function draw() {
   background("#ffe8a4");
   
@@ -57,5 +55,4 @@ function draw() {
   //otro rectangulo
   rect(400, 340, 90, 100); 
   stroke("#000");
-  
 }
