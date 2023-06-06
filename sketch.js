@@ -1,21 +1,20 @@
 let img; 
 
 function preload(){
-  img = LoadImage('pezD.png'); 
+  img = loadImage('pezD.png'); 
 }
 
 function setup() {
   createCanvas(512, 512);
 }
-function draw(){
+
+function draw() {
+  background("#ffe8a4");
+  
 let anchoImg = img.width;
 let altoImg = img.height;
 comsole.log(anchoImg,altoImg)
 image(img,mouseX, mouseY, img.width, img.height);
-}
-
-function draw() {
-  background("#ffe8a4");
   
   fill("#000");
   rect(55, 45, 100, 65); 
