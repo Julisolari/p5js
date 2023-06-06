@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background("#fff");
+  background("#000");
 }
 
   image(img, 0, 0);
