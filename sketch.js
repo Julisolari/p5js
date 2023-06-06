@@ -8,8 +8,14 @@ function setup() {
   createCanvas(512, 512);
 }
 function draw(){
-    image(img, 0, 0);
+  image(img, 0, 0, 100, 100);
+  mover();
 }
+function mover(){
+  if(KeyIsPressed){
+    if(keyCode == RIGHT_ARROW
+       }
+  }
 function draw() {
   background("#ffe8a4");
   
